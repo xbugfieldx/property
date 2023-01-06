@@ -1,0 +1,44 @@
+.headerWrap {
+  position: fixed;
+  width: 100%;
+  :global {
+    .navbar {
+      background-color: #1e1e78 !important;
+      padding-block: 12px;
+      a {
+        color: #fff;
+      }
+      .customLink {
+        border: 1px solid #fff;
+        color: #fff;
+        border-radius: 50px;
+        padding: 2px 16px;
+        &:not(:last-child) {
+          margin-right: 18px;
+        }
+      }
+      .profileImg {
+        padding: 10px;
+        max-width: 40px;
+        max-height: 40px;
+        border-radius: 50px;
+        border: 1px solid #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .userProfile {
+        border: 1px solid #fff;
+        background-color: #0b4aa2;
+        margin-left: 12px;
+        color: #fff;
+        border-radius: 12px;
+        padding: 2px 16px;
+      }
+    }
+  }
+}

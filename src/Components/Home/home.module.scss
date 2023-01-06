@@ -1,0 +1,54 @@
+.homeWrapper {
+  color: #fff;
+  background-image: url("../../Images/Buildings.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    text-transform: capitalize;
+  }
+  button {
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 2px 16px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    margin-top: 16px;
+    &:not(:last-child) {
+      margin-right: 12px;
+    }
+  }
+  .searchWrap {
+    margin-top: 24px;
+    input {
+      border-radius: 50px;
+      border: 1px solid #fff;
+      padding: 12px;
+      margin-right: 12px;
+    }
+    span {
+      background-color: #fff;
+      border-radius: 50px;
+      border: 1px solid #fff;
+      padding: 12px 24px;
+      svg {
+        color: #000;
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+}
